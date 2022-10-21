@@ -26,6 +26,8 @@ public class SessionController {
 				e1.printStackTrace();
 			}
 		});
+		
+		view.getCancelarButton().setOnAction(e -> LoginApp.stage.close());
 	}
 	
 	private void onLogin(ActionEvent e) throws Exception {
